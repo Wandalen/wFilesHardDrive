@@ -1458,6 +1458,4 @@ module:
       ../.im.will.yml:
         hash: 4bd2ad8e081461ac0a9600e6aa2abea9
         size: 4662
-      wFilesHardDrive.out.will.yml:
-        hash: 10f08b9ad2aabb3921cd19a6db75debd
-        size: 36857
+      wFilesHardDrive.out.will.yml: *ref_0
