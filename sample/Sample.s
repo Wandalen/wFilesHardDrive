@@ -3,5 +3,5 @@ let _ = require( 'wfilesharddrive' );
 
 /**/
 
-___
+console.log( '___ not implemented ___' );
 
