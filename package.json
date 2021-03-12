@@ -1,6 +1,6 @@
 {
   "name": "wfilesharddrive",
-  "version": "0.2.63",
+  "version": "0.2.64",
   "description": "___",
   "author": "Kostiantyn Wandalen <wanalen@01.school>",
   "license": "MIT",
@@ -21,11 +21,11 @@
     "url": "https://github.com/Wandalen/wFilesHardDrive/issues"
   },
   "dependencies": {
-    "wTools": "alpha"
+    "wTools": "gamma"
   },
   "devDependencies": {
     "eslint": "7.1.0",
-    "wTesting": "alpha",
+    "wTesting": "gamma",
     "wfilesharddrive": "file:."
   },
   "keywords": [
