@@ -63,8 +63,8 @@ path:
       raw: compiled
       content: prime
   npm.proto.entry:
-    - /pro/module/wFilesHardDrive/proto/wtools/Tools.s
-    - /pro/module/wFilesHardDrive/proto/node_modules/wfilesharddrive
+    - proto/wtools/Tools.s
+    - proto/node_modules/wfilesharddrive
 reflector:
   reflect.proto:
     inherit: predefined.*
