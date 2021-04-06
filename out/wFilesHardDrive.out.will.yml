@@ -6,8 +6,8 @@ consistency:
     hash: 939bea3b2e7c06194160e52c0549e22f
     size: 1702
   ../.im.will.yml: &ref_1
-    hash: d9dfea1085cea1dff23dd606df7249f0
-    size: 4684
+    hash: 4d701d30e90a8e003873bab02be4d7fa
+    size: 4688
 module:
   wFilesHardDrive.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfilesharddrive
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfilesharddrive
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wfilesharddrive
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: 939bea3b2e7c06194160e52c0549e22f
         size: 1702
       ../.im.will.yml:
-        hash: d9dfea1085cea1dff23dd606df7249f0
-        size: 4684
+        hash: 4d701d30e90a8e003873bab02be4d7fa
+        size: 4688
